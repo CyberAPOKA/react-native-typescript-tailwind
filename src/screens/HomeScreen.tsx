@@ -19,6 +19,14 @@ export default function HomeScreen() {
         title="Ir para Login"
         onPress={() => navigation.navigate("Login")}
       />
+      <Button
+        title="Ir para Dashboard"
+        onPress={() => navigation.navigate("Dashboard")}
+      />
+      <Button
+        title="Ir para Tratamentos"
+        onPress={() => navigation.navigate("Treatments")}
+      />
     </View>
   );
 }

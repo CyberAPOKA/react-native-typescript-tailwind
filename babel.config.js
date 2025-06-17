@@ -8,7 +8,6 @@ module.exports = function (api) {
         plugins: [
             [
                 "module-resolver",
-                'module:react-native-dotenv',
                 {
                     root: ["./src"],
                     alias: {
@@ -16,6 +15,7 @@ module.exports = function (api) {
                     },
                 },
             ],
+            ["module:react-native-dotenv"],
             "react-native-reanimated/plugin",
         ],
     };
